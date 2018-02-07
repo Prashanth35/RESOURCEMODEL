@@ -1,0 +1,55 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="resourcemodel.main" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		
+		
+		<Table id="idProductsTable">
+		
+		<columns>
+			<Column
+				width="12em">
+				<Text text="{i18n>PRODUCTID}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<Text text="{i18n>PRICE}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="Right">
+				<Text text="{i18n>PRODUCTNAME}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="Right">
+				<Text text="{i18n>VALUE}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="Right">
+				<Text text="{i18n>PLANT}" />
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="Right">
+				<Text text="{i18n>STATUS}" />
+			</Column>
+			
+		</columns>
+		
+	</Table>
+	
+		
+		
+		
+		
+	
+		</content>
+	</Page>
+</core:View>
